@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search App</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="topSection mt-5">
+            <div><h1>Dog Image App</h1></div>
+                <form class="formSection col-md-4 mt-4">
+                    <div class="input-group mb-3">
+                        <select class="form-select col-md-2" id="searchInput" aria-label="Default select example">
+                          <option selected>Select no. of images</option>
+                          <option value="06">06</option>
+                          <option value="09">09</option>
+                          <option value="12">12</option>
+                          <option value="15">15</option>
+                          <option value="18">18</option>
+                        </select>
+                        <button class="btn btn-success col-md-2" type="button" id="searchBtn"><b>Search</b></button>
+                      </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row mt-5" id="outPutPlace">
+            
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
